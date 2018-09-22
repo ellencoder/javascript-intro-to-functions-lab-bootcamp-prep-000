@@ -26,7 +26,7 @@ function sayHiToGrandma(string)
   } 
 
 }
-function sayHiToGrandma(string)
+sayHiToGrandma(string)
 {
   var up = shout(string)
 if (string == up)
