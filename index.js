@@ -27,7 +27,11 @@ function sayHiToGrandma(string)
 
 }
 function sayHiToGrandma(string)
-return ""
-
-
+{
+  var up = shout(string)
+if (string == up)
+{ 
+  return "YES INDEED!"
+}
+}
 
