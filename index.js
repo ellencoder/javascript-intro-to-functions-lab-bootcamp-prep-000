@@ -18,20 +18,15 @@ function logWhisper(string)
   var down = whisper(string)
   console.log(down)
 }
-function sayHiToGrandma(string) 
-{
+function sayHiToGrandma(string) {
   var down = whisper(string)
   if (string == down) {
     return "I can't hear you!"
   } 
-
-}
-function sayHiToGrandma(string)
-{
+  
   var up = shout(string)
-if (string == up)
-{ 
-  return "YES INDEED!"
-}
+  if (string == up) { 
+    return "YES INDEED!"
+  }
 }
 
