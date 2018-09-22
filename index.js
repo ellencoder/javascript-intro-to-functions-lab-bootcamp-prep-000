@@ -28,7 +28,8 @@ function sayHiToGrandma(string) {
   if (string == up) { 
     return "YES INDEED!"
   }
-  
+  if string = "I love you, Grandma."
+    return ""
   
 }
 
